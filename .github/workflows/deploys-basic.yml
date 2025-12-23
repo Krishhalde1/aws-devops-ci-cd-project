@@ -2,7 +2,7 @@
 # 1. on(A trigger- Event,i.e. push, pull, merge) , 2. jobs - job-id(Job identifier) 3. runs-on (a remote machine where workflow runs on)
 name: Deploys website to S3+CloudFront
 on:
-  workflow-dispatch:
+  workflow_dispatch:
 
 jobs:
   deploys:
